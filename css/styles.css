@@ -1,0 +1,278 @@
+div.splash .container{
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+	color: white;
+	overflow: auto;
+	margin: auto;
+	position: relative;
+	/*z-index: 999;*/
+	min-width: 200px;
+	max-width: 400px;
+	min-height: 400px;
+	padding: 40px;
+	clear: both;
+}
+.before{
+	float:left;
+	height:50%;
+	margin-bottom: -10%;
+}
+h3{
+	line-height: 1.5em;
+	font-weight: 300;
+	/*text-shadow: 0px 0px 8px black;*/
+	font-size: 14pt;
+	letter-spacing: 1px;
+}
+div.splash{
+	background-image: url("../img/bg1.JPG");
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+div#logo{
+	margin: 20px 20px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+span.bold{
+	font-weight: 700;
+}
+.down-arrow{
+	color: white;
+	opacity: 0.4;
+	transition: all 0.2s ease;
+	max-height: 128px;
+	max-width: 128px;
+	margin: auto;
+}
+.down-arrow:hover{
+	opacity: 1.0;
+}
+.down-arrow a{
+	color: white;
+}
+.hidden{
+	display: none;
+}
+
+img.small{
+	height: 50px;
+	width: 50px;
+}
+
+#second{
+	background-image: url("../img/bg4.JPG");
+	background-position: center;
+}
+div.slide, .bar{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.bar .narrow{
+	width: 60%;
+	margin: auto;
+}
+
+.narrow h1{
+	display: inline-block;
+	width: 50%;
+}
+.bg2{
+	background-image: url("../img/bg2.JPG");
+	background-position: center;
+}
+.bg3{
+	background-image: url("../img/bg3.JPG");
+	background-position: center;
+}
+
+.bg4{
+	background-image: url("../img/bg4.JPG");
+	background-position: center;
+}
+.center{
+	width: 100%;
+	margin: auto;
+}
+.center h1{
+	font-size: 32pt;
+}
+div.column-third{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	vertical-align: top;
+	min-height: 200px;
+	line-height: 2.0em;
+	/*background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);*/
+}
+
+div.column-third p{
+	font-weight: 300;
+	font-size: 18pt;
+}
+
+div.column-third h3{
+	font-weight: 700;
+	font-size: 22pt;
+}
+
+div.column-third hr{
+	width: 50%;
+}
+
+
+a.button{
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+div.space{
+	margin: 50px 10px 10px 10px;
+}
+
+div.btn{
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+#menu{
+	transition: all 0.3s ease;
+	position: fixed;
+	width: 0%;
+	top: 0;
+	left: -200px;
+	background: rgb(30, 30, 30);
+	height: 100%;
+	z-index: 999;
+	/*box-shadow: 0px 0px 10px black;*/
+}
+
+#menu a{
+	color: white;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.2s ease;
+}
+
+#menu a:hover{
+	background: rgb(50, 50, 50);
+}
+
+#menu-toggle{
+	position: fixed;
+	top: 20px;
+	left: 0;
+	background: rgb(0, 100, 100);
+	z-index: 1000;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+#menu-toggle:hover{
+	cursor: pointer;
+}
+
+#menu.open{
+	left: 0;
+	width: 200px;
+	display: block;
+}
+
+#menu-toggle.open{
+	left: 200px;
+}
+
+.bg4 .bar h3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer{
+	height: 60px;
+	background: rgb(0, 0, 0);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: table;
+}
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 10pt;
+	display: table-cell;
+	vertical-align: middle;
+}
+h1.about{
+	font-weight: 300;
+}
+@media all and (max-width: 1300px) {
+	.before{
+	height: 40%;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	h1{
+		font-size: 20pt;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.before{
+	height: 25%;
+	}
+	div.column-third{
+		width: 90%;
+	}
+	h1{
+		font-size: 18pt;
+	}
+	div.container h3{
+		font-size: 14pt;
+	}
+	div.column-third p{
+		font-size: 14pt;
+	}
+	div.column-third h3{
+		font-size: 18pt;
+	}
+}
+
+@media all and (max-width: 475px) {
+	.before{
+		height: 0px;
+	}
+	h1{
+		font-size: 12pt;
+	}
+	div.container h3{
+		font-size: 12pt;
+	}
+}
+
+@media all and (max-height: 380px) {
+	div.splash .container{
+		max-width: 800px;
+		max-height: 300px;
+	}
+}

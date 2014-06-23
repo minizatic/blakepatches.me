@@ -1,0 +1,12 @@
+grunt.initConfig({
+  uglify: {
+    my_target: {
+      files: [{
+          expand: true,
+          cwd: 'js',
+          src: '**/*.js',
+          dest: '/js'
+      }]
+    }
+  }
+});
