@@ -10,11 +10,7 @@ module.exports = function (grunt) {
             },
             js: {
                 src: [
-                'js/jquery.js',
-                'js/jquery.easing.1.3.js',
-                'js/jquery.slimscroll.js',
-                'js/jquery.fullPage.js',
-                'js/script.js'
+                'js/respond.min.js'
                 ],
                 dest: 'combined.js'
             }
