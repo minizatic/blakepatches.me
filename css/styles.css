@@ -61,7 +61,7 @@ hr{
 }
 p.intro{
 	margin-top: 50px;
-	text-align: center;
+	text-align: justify;
 	font-size: 1.9em;
 	font-weight: 400;
 }
@@ -136,6 +136,7 @@ div.third p{
 	font-size: 1.3em;
 	line-height: 1.5em;
 	color: #333;
+	text-align: justify;
 }
 h3.contact a{
 	text-decoration: none;
