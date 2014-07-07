@@ -10,17 +10,17 @@ div.logo{
 	background-color: #333;
 	border-radius: 50%;
 	padding: 10px 10px 10px 10px;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	text-align: center;
 	float: left;
 }
 div.logo p{
-	margin-top: 20px;
+	margin-top: 8px;
 	vertical-align: middle;
 	font-size: 3.1em;
-	font-weight: 300;
-	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-family: "Lobster", sans-serif;
 	color: white;
 }
 header{
@@ -29,12 +29,13 @@ header{
 }
 h1{
 	text-align: center;
-	letter-spacing: 8px;
-	font-family: "Lato", sans-serif;
-	font-weight: 900;
-	font-size: 2.5em;
+	/*letter-spacing: 8px;*/
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-size: 4.5em;
 	margin-top: 150px;
 	color: #555;
+	margin-bottom: 0px;
 }
 h2{
 	text-align: center;
@@ -42,7 +43,7 @@ h2{
 	font-weight: 400;
 	color: #808080;
 	font-size: 1.2em;
-	letter-spacing: 5px;
+	/*letter-spacing: 5px;*/
 }
 p.title{
 	font-size: 2.5em;
@@ -68,8 +69,7 @@ p.intro{
 p.quote{
 	margin-top: 150px;
 	font-weight: 400;
-	/*font-family: "Lato", sans-serif;*/
-	letter-spacing: 4px;
+	font-family: "Sorts Mill Goudy", sans-serif;
 	font-size: 2em;
 	line-height: 1.5em;
 	text-align: center;
@@ -104,9 +104,9 @@ ul#nav{
 	margin-top: 40px;
 	float: left;
 	clear: both;
+	margin-left: -18px;
 }
 ul#nav li{
-	margin-left: -10px;
 	margin-top: 10px;
 }
 ul#nav li a{
