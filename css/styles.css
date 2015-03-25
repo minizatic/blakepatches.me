@@ -1,5 +1,5 @@
 body {
-	background: url("img/misty mountains cold.jpg") no-repeat center center fixed;
+	background: url("../img/misty mountains cold.jpg") no-repeat center center fixed;
 	background-size: cover;
 	color: #44485B;
 	padding-right: 60px;
@@ -34,6 +34,14 @@ body {
 	transform: translateY(-50%);
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+}
+.example img{
+	box-shadow: 0 0 5px #44485B;
+	opacity: 0.6;
+	transition: all 0.2s ease;
+}
+.example img:hover{
+	opacity: 0.9;
 }
 .nav ul {
 	list-style: none;
